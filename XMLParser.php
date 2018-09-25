@@ -1,7 +1,7 @@
 <?php
 $sqlname='127.0.0.1';
-$username='root';
-$db='database';
+$username='';
+$db='';
 $cons= @mysqli_connect("$sqlname", "$username","","$db") or die(@mysqli_connect_error());
 $xml=simplexml_load_file("report.xml") or die("Error");
 $counter = $xml->httpSample->count();
