@@ -1,6 +1,6 @@
 <?php
-$cons  = mysql_connect("localhost", "root", "");
-mysql_select_db('db');
+$cons  = mysql_connect("localhost", "", "");
+mysql_select_db('dbname');
 
 // table schema for "users"
 //1	id_user Primary	int(11) AUTO_INCREMENT	 
