@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" total="3" passed="1">
+  <suite name="test" duration-ms="963552" started-at="2018-10-11T10:46:37Z" finished-at="2018-10-11T10:02:40Z">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="43533" started-at="2018-10-11T10:46:37Z" finished-at="2018-10-11T10:47:20Z">
+      <class name="test">
+        <test-method status="PASS" signature="test" name="test" duration-ms="0" started-at="2018-10-11T10:10:37Z" finished-at="2018-10-11T10:10:51Z">
+          <reporter-output><line></line></reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="FAIL" signature="test" name="test" duration-ms="0" started-at="2018-10-11T10:32:33Z" finished-at="2018-10-11T10:32:39Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+            </message>
+            <full-stacktrace>
+            </full-stacktrace>
+          </exception>
+            <reporter-output><line></line></reporter-output>
+        </test-method>
+        <test-method status="SKIP" signature="test" name="test" duration-ms="0" started-at="2018-10-11T10:32:40Z" depends-on-methods="test" finished-at="2018-10-11T10:32:40Z">
+          <exception class="java.lang.Throwable"><message></message><full-stacktrace></full-stacktrace></exception>
+          <reporter-output></reporter-output>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
