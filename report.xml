@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1398" it="0" lt="1398" ct="908" ts="1537184934189" s="true" lb="request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" de="utf-8" by="1058" sby="205" sc="1" ec="0" ng="1" na="1" hn="SDL7573">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>Duration Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 17 Sep 2018 11:48:55 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 305
+Connection: keep-alive
+Set-Cookie: __cfduid=d8d3be30b11d97d86f6e2ccc925f473171537184935; expires=Tue, 17-Sep-19 11:48:55 GMT; path=/; domain=.typicode.com; HttpOnly
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: public, max-age=14400
+Pragma: no-cache
+Expires: Mon, 17 Sep 2018 15:48:55 GMT
+X-Content-Type-Options: nosniff
+Etag: W/&quot;131-uHddi0mgHIPmmzZ13FEZKREc9o4&quot;
+Via: 1.1 vegur
+CF-Cache-Status: REVALIDATED
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Server: cloudflare
+CF-RAY: 45bb58b519c63d7d-MXP
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 0
+Content-Type: text/plain; charset=ISO-8859-1
+Host: jsonplaceholder.typicode.com
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_181)
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;userId&quot;: 5,
+  &quot;id&quot;: 42,
+  &quot;title&quot;: &quot;commodi ullam sint et excepturi error explicabo praesentium voluptas&quot;,
+  &quot;body&quot;: &quot;odio fugit voluptatum ducimus earum autem est incidunt voluptatem\nodit reiciendis aliquam sunt sequi nulla dolorem\nnon facere repellendus voluptates quia\nratione harum vitae ut&quot;
+}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://jsonplaceholder.typicode.com/posts/42</java.net.URL>
+</httpSample>
+
+</testResults>
